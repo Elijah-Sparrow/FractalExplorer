@@ -1,7 +1,6 @@
 import javax.swing.JFrame;
 
 public class ColorVisRunner {
-  
   public static void main(String[] args) {
     JFrame f = new JFrame("Color Visualizer"); 
     ColorVisualizer p = new ColorVisualizer();

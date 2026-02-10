@@ -44,8 +44,8 @@ public class ColorVisualizer extends JPanel {
         
         if (normedN < 0)
             return Color.BLACK;
-            int red = (int) (160 * Math.sin(normedN));
-            int green = (int) (255 * Math.cos(normedN));
+            int red = (int) (160 * Math.tan(normedN));
+            int green = 255 - (int) (255 * Math.sin(normedN));
             int blue = 255 - (int)(150 * Math.tan(normedN));
             return new Color(red, green, blue);
     }

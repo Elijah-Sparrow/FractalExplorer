@@ -1,7 +1,7 @@
 public class Complex {
 
-    private double real;
-    private double imaginary;
+    double real;
+    double imaginary;
 
     public Complex(double real, double imaginary) {
         this.real = real;

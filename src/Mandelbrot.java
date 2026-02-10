@@ -1,6 +1,6 @@
 public class Mandelbrot {
 
-    public static int iterationLimit = 5;
+    public static int iterationLimit = 100;
 
     public static void setIterationLimit(int number){
         iterationLimit = number;
